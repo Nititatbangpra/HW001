@@ -1,6 +1,6 @@
 
-from flask import Flask,render_template,request  # ตอนนี้ run เป็น Local เซิฟ
-from flask_sqlalchemy import SQLAlchemy # มาทำเพื่อ DB model ใน columns
+from flask import Flask,render_template,request
+from flask_sqlalchemy import SQLAlchemy 
 from main import Students ,Registration,Subjects,Teacher, session
 app = Flask(__name__)
 
