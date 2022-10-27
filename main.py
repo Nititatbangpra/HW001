@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column , Integer , String , ForeignKey
 from sqlalchemy.orm import sessionmaker , relationship , backref
 Base = declarative_base()
-engine = sqlalchemy.create_engine('postgresql://webadmin:IKQcmg16377@node37016-nititat.proen.app.ruk-com.cloud:11257/hw2')
+engine = sqlalchemy.create_engine('postgresql://webadmin:IKQcmg16377@node37016-nititat.proen.app.ruk-com.cloud:5432/hw2')
 
 class Students(Base):
     __tablename__ = 'Students' 
